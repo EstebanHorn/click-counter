@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body{
@@ -27,10 +28,21 @@ html, body{
 
 .logo-container p{
     color: #fff;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-weight: 600;
 }
 
 .counter-logo{
-    height: 50px;
-    margin-left: 10px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.main-container{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
