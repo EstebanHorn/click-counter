@@ -1,0 +1,32 @@
+button{
+    width: 250px;
+    height: 80px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button-click{
+    background-color: #ffef0b;
+}
+
+.button-click:hover{
+    background-color: #ffffff;
+    color: #ffef0b;
+    border: 2px solid black;
+}
+
+.button-reset{
+    background-color: #20edfc;
+}
+
+.button-reset:hover{
+    background-color: #ffffff;
+    color: #20edfc;
+    border: 2px solid black;
+}
